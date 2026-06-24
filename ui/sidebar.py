@@ -33,7 +33,6 @@ def render_sidebar():
             st.markdown('<div class="reset-btn">', unsafe_allow_html=True)
             if st.button("🔄 New Session"):
                 st.session_state.messages = []
-                st.session_state.chat_session = None
                 st.rerun()
             st.markdown('</div>', unsafe_allow_html=True)
 

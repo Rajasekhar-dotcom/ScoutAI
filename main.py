@@ -14,7 +14,7 @@ config = types.GenerateContentConfig(
     system_instruction = SYSTEM_PROMPT
 )
 
-chat = client.chats.create(model = "gemini-2.5-flash",
+chat = client.chats.create(model = "gemini-3.1-flash-lite",
                            config = config)
 
 print(welcome())

@@ -36,5 +36,5 @@ def render_main_content():
                 st.rerun()
     else:
         for msg in st.session_state.messages:
-            with st.chat_message(msg["role"], avatar="🚀" if msg["role"] == "ai" else None):
+            with st.chat_message(msg["role"], avatar="🚀" if msg["role"] == "assistant" else None):
                 st.markdown(msg["content"])
