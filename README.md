@@ -86,7 +86,6 @@ python main.py
 * Streamlit
 * Google Gemini API
 * Google GenAI SDK
-* Python Dotenv
 
 ---
 
@@ -124,9 +123,9 @@ Scout-AI/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Scout-AI.git
+git clone https://github.com/Rajasekhar-dotcom/ScoutAI.git
 
-cd Scout-AI
+cd ScoutAI
 ```
 
 ---
@@ -165,19 +164,8 @@ python main.py
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots here:
-
-```text
-screenshots/
-
-home.png
-
-chat.png
-
-analysis.png
-```
+## Hosted website link
+[Click here to check out Mr. Scout](https://scout-ai.streamlit.app)
 
 ---
 
